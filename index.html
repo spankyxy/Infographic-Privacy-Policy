@@ -91,19 +91,21 @@
     <h1>Privacy Policy</h1>
 
     <div class="meta-info">
-        <p><strong>Effective Date:</strong> March 10, 2026</p>
+        <p><strong>Effective Date:</strong> March 16, 2026</p>
     </div>
 
     <div class="toc">
         <ol>
             <li>Introduction</li>
             <li>Information We Collect</li>
+            <li>How We Collect Information</li>
             <li>How We Use Your Information</li>
             <li>Input Content and AI Processing</li>
             <li>Data Sharing and Disclosure</li>
             <li>Data Retention</li>
             <li>Security</li>
             <li>Children's Privacy</li>
+            <li>International Data Transfers</li>
             <li>Changes to This Policy</li>
             <li>Contact Us</li>
         </ol>
@@ -111,8 +113,8 @@
 
     <p>Welcome to <strong>InfographAI</strong> ("App"), also referred to in the project as
         <strong>Graphx</strong>, provided by <strong>Hamza Canbaz</strong> ("we," "our," or "us"). This Privacy
-        Policy explains how we collect, use, and protect your information when you use our AI-powered infographic
-        generation services.</p>
+        Policy explains how we collect, use, share, and protect your information when you use our AI-powered
+        infographic generation services.</p>
 
     <h2>1. Introduction</h2>
     <p>By using InfographAI, you agree to the collection and use of information in accordance with this policy. The App
@@ -125,31 +127,49 @@
         <li><strong>User Input Content:</strong> Text you enter, titles you provide, and PDF files or PDF text content
             you submit for infographic generation.</li>
         <li><strong>Generated Content:</strong> Infographic images created in response to your requests, along with
-            related metadata such as style, aspect ratio, resolution, and request identifiers.</li>
-        <li><strong>Account and Identifier Information:</strong> Anonymous authentication identifiers and internal user
-            IDs used to operate the App and associate credits, subscriptions, and history with your account.</li>
+            related metadata such as style, aspect ratio, resolution, descriptions, and request identifiers.</li>
+        <li><strong>History Data:</strong> Information saved to your in-app history, including generated image URLs,
+            source type, limited input previews, favorite status, and timestamps.</li>
+        <li><strong>Account and Identifier Information:</strong> Anonymous authentication identifiers, Firebase user
+            IDs, RevenueCat app user IDs, and internal identifiers used to operate the App and associate credits,
+            subscriptions, and history with your account.</li>
         <li><strong>Usage Data:</strong> Information about how you interact with the App, including onboarding flow,
-            feature usage, generation events, errors, paywall events, restore events, and similar analytics data.</li>
+            feature usage, generation events, errors, paywall events, restore events, purchase attempts, purchases, and
+            similar analytics data.</li>
         <li><strong>Device and Technical Information:</strong> Device and app environment data that may be collected by
-            Apple, Firebase, or other infrastructure providers to support app functionality, diagnostics, and fraud
-            prevention.</li>
+            Apple, Firebase, or other infrastructure providers to support app functionality, diagnostics, fraud
+            prevention, and service reliability.</li>
         <li><strong>Purchase and Subscription Information:</strong> Information related to one-time credit purchases,
             subscriptions, entitlement status, and transaction events processed through Apple App Store and RevenueCat.
             We do not store your full payment card details.</li>
+        <li><strong>Support Information:</strong> Information you provide when you contact us for support.</li>
     </ul>
 
-    <h2>3. How We Use Your Information</h2>
+    <h2>3. How We Collect Information</h2>
+    <p>We collect information in the following ways:</p>
+    <ul>
+        <li><strong>Directly from You:</strong> When you enter text, upload a PDF, select generation settings, save or
+            share content, make a purchase, or contact support.</li>
+        <li><strong>Automatically Through the App:</strong> When you use the App, analytics and infrastructure services
+            may collect app interaction, diagnostics, and technical data.</li>
+        <li><strong>From Service Providers:</strong> We receive purchase, subscription, authentication, and technical
+            information from providers such as Apple, Firebase, and RevenueCat to operate the App.</li>
+    </ul>
+
+    <h2>4. How We Use Your Information</h2>
     <p>We use collected information for the following purposes:</p>
     <ul>
         <li>To authenticate you and maintain your account, credits, and subscription status.</li>
         <li>To process your infographic generation requests and return generated images.</li>
+        <li>To extract text from uploaded PDFs when needed to create an infographic requested by you.</li>
         <li>To save your generated infographic history and enable access to prior results inside the App.</li>
         <li>To process purchases, restore transactions, and manage entitlements.</li>
         <li>To monitor performance, diagnose failures, prevent abuse, and improve the App experience.</li>
         <li>To provide user support when you contact us.</li>
+        <li>To comply with legal obligations and protect our rights, users, and systems.</li>
     </ul>
 
-    <h2>4. Input Content and AI Processing</h2>
+    <h2>5. Input Content and AI Processing</h2>
     <p>Because the App's core function is AI-based infographic generation, the content you submit is processed as
         follows:</p>
     <ul>
@@ -157,9 +177,13 @@
             order to generate infographic images requested by you.</li>
         <li><strong>Usage:</strong> Submitted content is used to create the requested infographic output and to return
             the result to your device. Generated content metadata may also be stored in your in-app history.</li>
-        <li><strong>AI Processing Providers:</strong> Submitted prompts and content may be transmitted securely to
-            trusted cloud and AI inference providers, including Firebase Cloud Functions and FAL AI, strictly for
-            generation and related service operations.</li>
+        <li><strong>Who Receives AI Data:</strong> When you request infographic generation, relevant input content may
+            be sent to <strong>FAL.ai</strong> for processing using <strong>Google Gemini</strong> image-generation
+            services.</li>
+        <li><strong>What May Be Sent:</strong> This may include your title, text input, extracted PDF text, and your
+            selected generation settings such as style, aspect ratio, and resolution.</li>
+        <li><strong>Why It Is Sent:</strong> This information is sent only to process and generate the infographic you
+            requested and for related service operations.</li>
         <li><strong>PDF Handling:</strong> When you submit PDF content, text may be extracted from the file in order to
             generate an infographic. We do not state that PDFs are used for advertising, identity analysis, or model
             training in this policy.</li>
@@ -167,19 +191,24 @@
             infographic results to advertisers or data brokers.</li>
     </ul>
 
-    <h2>5. Data Sharing and Disclosure</h2>
+    <h2>6. Data Sharing and Disclosure</h2>
     <p>We do not sell your personal data. We may share information with the following categories of recipients:</p>
     <ul>
-        <li><strong>Service Providers:</strong> Providers that help us operate the App, such as Google Firebase
-            (authentication, cloud functions, database, analytics), RevenueCat (subscription and purchase management),
-            Apple App Store (payments and in-app purchases), and AI generation providers such as FAL AI.</li>
+        <li><strong>AI Processing Providers:</strong> <strong>FAL.ai</strong>, which processes infographic generation
+            requests using <strong>Google Gemini</strong> image-generation services.</li>
+        <li><strong>Infrastructure and App Service Providers:</strong> <strong>Google Firebase</strong> for
+            authentication, cloud functions, database, and analytics.</li>
+        <li><strong>Subscription and Purchase Providers:</strong> <strong>RevenueCat</strong> for subscription and
+            purchase management, and <strong>Apple App Store</strong> for in-app purchases and payment processing.</li>
         <li><strong>Legal Requirements:</strong> If required to do so by law, regulation, legal process, or valid
             governmental request.</li>
         <li><strong>Business Protection:</strong> When reasonably necessary to protect our rights, users, systems, or
             services, including investigating fraud, abuse, or security incidents.</li>
     </ul>
+    <p>We require service providers that handle data on our behalf to provide appropriate protections for the data they
+        process for our services.</p>
 
-    <h2>6. Data Retention</h2>
+    <h2>7. Data Retention</h2>
     <p>We retain personal information only for as long as necessary to provide the App and fulfill the purposes
         described in this Privacy Policy.</p>
     <ul>
@@ -189,25 +218,32 @@
             stored until deleted by us, removed from our systems, or no longer needed for service operation.</li>
         <li><strong>Submitted Content:</strong> Input text and PDF-derived processing content may be retained for the
             time needed to complete generation requests, operate service logs, troubleshoot issues, and support
-            reliability, subject to our backend provider workflows.</li>
+            reliability, subject to our backend and provider workflows.</li>
+        <li><strong>Analytics and Transaction Records:</strong> Certain usage, subscription, and purchase records may
+            be retained as needed for analytics, accounting, fraud prevention, and legal compliance.</li>
     </ul>
 
-    <h2>7. Security</h2>
+    <h2>8. Security</h2>
     <p>We use commercially reasonable safeguards to protect your information, including relying on established cloud
-        infrastructure providers for authentication, database, and processing functions. However, no method of
-        transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute
-        security.</p>
+        infrastructure providers for authentication, database, analytics, purchase management, and processing
+        functions. However, no method of transmission over the internet or electronic storage is completely secure, and
+        we cannot guarantee absolute security.</p>
 
-    <h2>8. Children's Privacy</h2>
+    <h2>9. Children's Privacy</h2>
     <p>Our App is not intended for children under 13, and we do not knowingly collect personal information from
         children under 13. If you believe a child has provided personal information through the App, please contact us
         so we can review and delete the data where appropriate.</p>
 
-    <h2>9. Changes to This Policy</h2>
+    <h2>10. International Data Transfers</h2>
+    <p>Your information may be processed in countries other than your own by us or our service providers. By using the
+        App, you understand that your information may be transferred to and processed in jurisdictions where privacy
+        laws may differ from those in your location.</p>
+
+    <h2>11. Changes to This Policy</h2>
     <p>We may update this Privacy Policy from time to time. When we do, we will post the updated version on this page
         and revise the effective date above.</p>
 
-    <h2>10. Contact Us</h2>
+    <h2>12. Contact Us</h2>
     <p>If you have any questions or suggestions about this Privacy Policy, you may contact us at:</p>
     <p><strong>Email:</strong> <a href="mailto:spanky.global@gmail.com">spanky.global@gmail.com</a></p>
 
